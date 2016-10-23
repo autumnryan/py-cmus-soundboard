@@ -10,7 +10,7 @@ def get_options():
 
     parser.add_option("-c", "--config-file", help="configuration file",
                       default="config.py", dest="config_file")
-    parser.add_option("-d", "--song-directory", help="configuration file",
+    parser.add_option("-d", "--song-directory", help="directory containing music files",
                       default=".", dest="song_dir")
     parser.add_option("--debug", help="enable debugging", action="store_true",
                       default=False, dest="debug")
